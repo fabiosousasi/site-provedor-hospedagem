@@ -1,0 +1,438 @@
+* {
+    font-family: Poppins;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* TOPO */
+.topo-sessao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    width: 1260px;
+}
+
+.logo-alfatech {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img img {
+    width: 90px;
+}
+
+.logo-titulo {
+    display: block;
+    margin: 0 0 15px 15px;
+}
+
+.logo-titulo h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo-titulo p {
+    color: #2f86d6;
+    font-weight: 600;
+    margin: 0;
+}
+
+.menu-itens {
+    text-align: center;
+}
+
+.menu-itens a {
+    font-size: 18px;
+    color: #233032;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+@media(max-width:950px) {
+    .logo-titulo h2 {
+        font-size: 28px;
+    }
+
+    .logo-titulo p {
+        font-size: 14;
+    }
+
+    .menu-itens a {
+        font-size: 15px;
+        margin: 0 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .topo-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 15px 20px;
+    }
+
+    .menu-itens a {
+        font-size: 14px;
+    }
+}
+
+.menu-itens a:hover {
+    text-decoration: underline;
+}
+
+/* SESSAO 1 */
+.banner-sessao {
+    background-color: #2f86d6;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    margin-top: 157px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1260px;
+}
+
+@media(max-width:1024px) {
+    .banner-container img {
+        width: 400px;
+    }
+}
+
+@media(max-width:768px) {
+    .banner-container {
+        flex-wrap: wrap;
+    }
+}
+
+.banner-textos {
+    color: #fff;
+}
+
+@media(max-width:768px) {
+    .banner-textos {
+        text-align: center;
+    }
+
+    .banner-textos h1 {
+        line-height: 1.3em;
+    }
+}
+
+.banner-textos h1 {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+/* SESSAO 2 */
+
+.primeiro-anuncio-sessao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #233032;
+    color: #fff;
+
+}
+
+.primeiro-anuncio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1260px;
+}
+
+.primeiro-anuncio-textos{
+    margin-right: 10px;
+}
+
+.primeiro-anuncio-botao {
+    display: flex;
+}
+
+.botao-primeiro-anuncio{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #2f86d6;
+    text-decoration: none;
+    padding: 20px 18px;
+}
+
+.primeiro-anuncio-botao a img {
+    margin-right: 8px;
+}
+
+@media(max-width:849px){
+    .primeiro-anuncio-sessao{
+        padding: 20px;
+    }
+
+    .primeiro-anuncio-textos{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .primeiro-anuncio-container{
+        justify-content: center;
+    }
+}
+
+/* SESSAO 3 */
+
+.informacoes-sessao{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 70px 20px;
+}
+
+.informacoes-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1260px;
+}
+
+.informacoes-titulo{
+    margin-bottom: 50px;
+}
+
+.informacoes-titulo h2{
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+}
+
+.informacoes-vantagem{
+    display: flex;
+}
+
+.informacoes-vantagem-colunas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.informacoes-vantagem-col-2{
+    margin: 0 15px;
+}
+
+.informacoes-vantagem-colunas h3{
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.informacoes-vantagem-colunas img{
+    width: 100px;
+}
+
+@media(max-width:1024px){
+    .informacoes-sessao{
+        padding: 40px 20px;
+    }
+
+    .informacoes-titulo{
+        margin-bottom: 25px;
+        max-width: 600px;
+    }
+}
+@media(max-width:767px){
+    .informacoes-titulo h2{
+        font-size: 28px;
+    }
+
+    .informacoes-vantagem-colunas{
+        max-width: 350px;
+    }
+
+    .informacoes-vantagem-col-2{
+        margin: 40px 0px;
+    }
+
+    .informacoes-vantagem-colunas img{
+        width: 70px;
+    }
+
+    .informacoes-vantagem{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* SESSAO 4 */
+.planos-sessao{
+    display: flex;
+    justify-content: center;
+    background-color: #f1f3f7;
+    padding: 70px 20px;
+}
+
+.planos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planos-container h2{
+    font-size: 32px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.planos-tabela{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 30px 15px #2f86d6;
+    width: 100%;
+}
+
+th{
+    padding: 10px 0;
+}
+
+td{
+    padding: 15px 0;
+    text-align: center;
+}
+
+.planos-tabela-celula-alternado{
+    background-color: #f1f6f7;
+}
+
+.planos-tabela-titulo{
+    font-size: 18px;
+}
+
+.planos-tabela-paragrafo{
+    font-size: 13px;
+    color:#a89f9f;
+    font-weight: 500;
+}
+
+.planos-tabela img{
+    width: 120px;
+}
+
+@media(max-width:767px){
+    .planos-tabela-titulo{
+        font-size: 14px;
+    }
+    .planos-tabela img{
+        width: 60px;
+    }
+    .planos-tabela-celula{
+        padding: 15px 5px;
+        font-size: 13px;
+    }
+}
+
+/* SESSAO 5 */
+
+.segundo-anuncio-sessao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #2f86d6;
+    color: #fff;
+
+}
+
+.segundo-anuncio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1260px;
+}
+
+.segundo-anuncio-textos{
+    margin-right: 10px;
+}
+
+.segundo-anuncio-botao {
+    display: flex;
+}
+
+.botao-segundo-anuncio{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #233032;
+    text-decoration: none;
+    padding: 20px 18px;
+}
+
+.segundo-anuncio-botao a img {
+    margin-right: 8px;
+}
+
+@media(max-width:849px){
+    .segundo-anuncio-sessao{
+        padding: 20px;
+    }
+
+    .segundo-anuncio-textos{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .segundo-anuncio-container{
+        justify-content: center;
+    }
+}
+
+/* RODAPE */
+.rodape-sessao{
+    display: flex;
+    justify-content: center;
+    padding: 70px 20px;
+}
+
+.rodape-logo-alfatech{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.menu-itens-rodape p{
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.rodape-desenvolvedor{
+    background-color: #f1f6f7;
+    padding: 20px 0;
+}
+
+.rodape-desenvolvedor p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.rodape-desenvolvedor span{
+    color:#2f86d6;
+}

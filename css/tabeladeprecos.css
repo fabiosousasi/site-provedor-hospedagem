@@ -1,0 +1,212 @@
+* {
+    font-family: Poppins;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* TOPO */
+.topo-sessao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f86d6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    width: 1260px;
+}
+
+.logo-alfatech {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img img {
+    width: 90px;
+}
+
+.logo-titulo {
+    display: block;
+    margin: 0 0 15px 15px;
+}
+
+.logo-titulo h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo-titulo p {
+    color: #2f86d6;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.menu-itens {
+    text-align: center;
+}
+
+.menu-itens a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+@media(max-width:950px) {
+    .logo-titulo h2 {
+        font-size: 28px;
+    }
+
+    .logo-titulo p {
+        font-size: 14;
+    }
+
+    .menu-itens a {
+        font-size: 15px;
+        margin: 0 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .topo-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 15px 20px;
+    }
+
+    .menu-itens a {
+        font-size: 14px;
+    }
+}
+
+.menu-itens a:hover {
+    text-decoration: underline;
+}
+
+/* SESSAO TABELA */
+.tabela-sessao{
+    display: flex;
+    justify-content: center;
+    padding: 70px 20px;
+    margin-top: 170px;
+}
+
+.planos-tabela-celula-alternado{
+    background-color: #f1f6f7;
+}
+
+.texto-left{
+    text-align: left;
+}
+
+/* .tabela-precos{
+    width: 100%;
+} */
+
+.tabela-precos p{
+    color: #a89f9f;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tabela-precos h2{
+    font-size: 32px;
+}
+
+.bolinha-azul{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2f86d6;
+    margin: 0 auto;
+}
+
+th{
+    padding: 20px 30px;
+}
+
+td{
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    padding: 20px 30px;
+}
+
+@media(max-width:870px){
+    .tabela-precos p{
+        font-size: 10px;
+    }
+
+    .tabela-precos h2{
+        font-size: 20px;
+    }
+
+    th{
+        padding: 5px;
+    }
+    
+    td{
+        font-size: 8px;
+        text-align: center;
+        border: 1px solid #dfdfdf;
+        padding: 5px;
+    }
+    .bolinha-azul{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #2f86d6;
+        margin: 0 auto;
+    }
+}
+
+/* RODAPE */
+.rodape-sessao{
+    display: flex;
+    justify-content: center;
+    padding: 70px 20px;
+    background-color: #2f86d6;
+}
+
+.rodape-logo-alfatech{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.menu-itens-rodape p{
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.rodape-desenvolvedor{
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.rodape-desenvolvedor p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.rodape-desenvolvedor span{
+    color:#2f86d6;
+}
+
+@media(max-width:767px){
+    .menu-itens-rodape p{
+        font-size: 14px;
+    }
+}
